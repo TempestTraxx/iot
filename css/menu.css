@@ -69,6 +69,15 @@ li a {
     color: #444;
     background: rgba(255, 255, 255, 0.9);
     text-decoration: none;
+    -webkit-transform: translateZ(-5px);
+    transform: translateY(-5px);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+
+
 }
 
 a {
