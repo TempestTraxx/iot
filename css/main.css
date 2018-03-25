@@ -2,7 +2,6 @@ body, html {
     height: 100%;
     font-family: 'Nunito', sans-serif;
     margin: 0;
-
 }
 
 #myBtn {
@@ -25,7 +24,6 @@ body, html {
     -webkit-transition-duration: 0.5s;
     transition-timing-function: ease-out;
     -webkit-transition-timing-function: ease-out;
-
 }
 
 #myBtn:hover {
@@ -63,10 +61,6 @@ body, html {
     position: relative;
 }
 
-tab2 {
-    padding-left: 8em;
-}
-
 .caption {
     position: absolute;
     left: 0;
@@ -84,6 +78,34 @@ tab2 {
     font-size: 25px;
     letter-spacing: 10px;
     line-height: 69px;
+}
+
+.text_dlhy ul{
+    padding-left: 8em;
+}
+
+p {
+    text-align: justify;
+}
+
+.text_kratky {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    color: #444444;
+    background-color: white;
+    padding: 70px 80px;
+    text-align: justify;
+}
+
+.text_dlhy {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    color: #444444;
+    background-color: white;
+    padding: 70px 80px;
+    text-align: justify;
 }
 
 @media (max-width: 820px) {
@@ -106,38 +128,10 @@ tab2 {
         padding-bottom: 40px;
     !important;
     }
-
 }
 
 @media (max-width: 995px) {
-    tab2 {
+    .text_dlhy ul {
         padding-left: 0;
     }
-
-}
-
-p {
-    text-align: justify;
-}
-
-.text_kratky {
-    width: 60%;
-    height: auto;
-    margin: auto;
-    color: #444444;
-    background-color: white;
-    padding: 70px 80px;
-    text-align: justify;
-
-}
-
-.text_dlhy {
-    width: 60%;
-    height: auto;
-    margin: auto;
-    color: #444444;
-    background-color: white;
-    padding: 70px 80px;
-    text-align: justify;
-
 }
