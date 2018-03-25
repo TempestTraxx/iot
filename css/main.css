@@ -112,6 +112,7 @@ p {
     .caption span.border {
         padding-right: 0;
         padding-left: 9px;
+        font-size: 15px;
     }
 
     #parallax_index {
