@@ -4,6 +4,7 @@ body, html {
     margin: 0;
 
 }
+
 #myBtn {
     width: 50px;
     height: 50px;
@@ -35,6 +36,7 @@ body, html {
     transition-timing-function: ease-out;
     -webkit-transition-timing-function: ease-out;
 }
+
 #parallax_index {
     background: fixed center no-repeat url("../img/ELECTRONICS_machine_technology_circuit_electronic_computer_technics_detail_psychedelic_abstract_pattern_5000x3533.jpg");
     height: 50%;
@@ -42,6 +44,7 @@ body, html {
     background-size: cover;
     position: relative;
 }
+
 #parallax_history {
     background: fixed center no-repeat url("../img/old.jpg");
 
@@ -50,15 +53,19 @@ body, html {
     background-size: cover;
     position: relative;
 }
+
 #iot {
     background: fixed center no-repeat url("../img/iot4.png");
     height: 50%;
     width: 100%;
     background-size: cover;
-   /* min-height: 100%;*/
+    /* min-height: 100%;*/
     position: relative;
 }
-tab2{padding-left: 8em;}
+
+tab2 {
+    padding-left: 8em;
+}
 
 .caption {
     position: absolute;
@@ -82,16 +89,32 @@ tab2{padding-left: 8em;}
 @media (max-width: 820px) {
     .caption span.border {
         padding-right: 0;
-        padding-left: 9px;}
-
-
-
+        padding-left: 9px;
     }
-@media (max-width: 995px) {
-    tab2{
-        padding-left: 0em;
-    }}
 
+    #parallax_index {
+        height: 30%;
+    }
+
+    #parallax_history {
+        height: 30%;
+    }
+
+    section.text_kratky {
+        padding-top: 0;
+    !important;
+        padding-bottom: 40px;
+    !important;
+    }
+
+}
+
+@media (max-width: 995px) {
+    tab2 {
+        padding-left: 0;
+    }
+
+}
 
 p {
     text-align: justify;
@@ -107,6 +130,7 @@ p {
     text-align: justify;
 
 }
+
 .text_dlhy {
     width: 60%;
     height: auto;
