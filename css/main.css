@@ -117,10 +117,12 @@ p {
 
     #parallax_index {
         height: 30%;
+background-size: 1100px;
     }
 
     #parallax_history {
         height: 30%;
+        background-size: 1000px;
     }
 
     section.text_kratky {
