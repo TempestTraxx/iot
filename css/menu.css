@@ -45,7 +45,7 @@ li:hover a {
 }
 
 /*vymazanie list stylingu (hlupe gulicky pred tagom ul)*/
-ul {
+menu ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -89,7 +89,7 @@ a {
     }
 
     /*Urobi dropdown linky inline*/
-    ul {
+    menu ul {
         position: static;
     }
 

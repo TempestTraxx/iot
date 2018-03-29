@@ -3,6 +3,14 @@ body, html {
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
+footer{
+    height: 4em;
+    width: 100%;
+    background-color: #01449D;
+    color: white;
+
+}
+footer p {text-align: center}
 
 #myBtn {
     width: 50px;
@@ -53,13 +61,24 @@ body, html {
 }
 
 #iot {
-    background: fixed center no-repeat url("../img/iot4.png");
-    height: 50%;
+    background: fixed center no-repeat url("../img/iot5.png");
+    height: 60%;
     width: 100%;
-    background-size: cover;
+    background-size: 100%;
     /* min-height: 100%;*/
     position: relative;
+
 }
+#iot_history {
+    background: fixed center no-repeat url("../img/listical_oldmodels_socialslide.jpg");
+    height: 60%;
+    width: 100%;
+    background-size: 110% 100%;
+    /* min-height: 100%;*/
+    position: relative;
+
+}
+
 
 .caption {
     position: absolute;
@@ -83,6 +102,13 @@ body, html {
 .text_dlhy ul{
     padding-left: 8em;
 }
+.text_dlhy li{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
 
 p {
     text-align: justify;
@@ -131,6 +157,35 @@ p {
         padding-bottom: 40px;
     !important;
     }
+    #iot_history {
+        background: fixed center no-repeat url(../img/listical_oldmodels_socialslide.jpg);
+        height: 30%;
+        width: 100%;
+        background-size: 100% 106%;
+        background-attachment: scroll;
+        min-height: 8%;
+        position: relative;}
+    #parallax_history {
+        height: 30%;
+        background-size: 800px;
+        background-attachment: scroll;
+    }
+    #parallax_index {
+        height: 30%;
+        background-size: 800px;
+        background-attachment: scroll;
+    }
+    #iot {
+        background: fixed center no-repeat url("../img/iot5.png");
+        height: 40%;
+        width: 100%;
+        background-size: cover;
+        /* min-height: 100%;*/
+        position: relative;
+        background-attachment: scroll;
+    }
+
+
 }
 
 @media (max-width: 995px) {
