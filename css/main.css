@@ -73,10 +73,15 @@ footer p {text-align: center}
     background: fixed center no-repeat url("../img/listical_oldmodels_socialslide.jpg");
     height: 60%;
     width: 100%;
-    background-size: 110% 100%;
+    background-size: 110% 110%;
     /* min-height: 100%;*/
     position: relative;
 
+}
+.img{
+    position: absolute;
+    display: block;
+    left: 30%;
 }
 
 
