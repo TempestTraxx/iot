@@ -14,11 +14,11 @@ ul.menu {
 }
 
 li:hover a {
-    -webkit-transform: translateZ(5px);
+
     transform: translateY(5px);
-    -webkit-transition-duration: 0.5s;
+
     transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
+
     transition-timing-function: ease-out;
     color: white;
     background-color: #01449D;
@@ -33,9 +33,9 @@ li:hover a {
 
     li:hover a {
         transform: none;
-        -webkit-transform: none;
+
         transition-duration: 0.5s;
-        -webkit-transition-duration: 0.5s;
+
     }
 
     menu {
@@ -69,11 +69,10 @@ li a {
     color: #444;
     background: rgba(255, 255, 255, 0.9);
     text-decoration: none;
-    -webkit-transform: translateZ(-5px);
     transform: translateY(-5px);
-    -webkit-transition-duration: 0.5s;
+
     transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
+
     transition-timing-function: ease-out;
 
 }

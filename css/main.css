@@ -29,18 +29,18 @@ footer p {text-align: center}
     font-size: 18px; /* Increase font size */
     line-height: 18px;
     transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
+
     transition-timing-function: ease-out;
-    -webkit-transition-timing-function: ease-out;
+
 }
 
 #myBtn:hover {
     background-color: #01449D; /* Add a dark-grey background on hover */
     color: white;
     transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
+
     transition-timing-function: ease-out;
-    -webkit-transition-timing-function: ease-out;
+
 }
 
 #parallax_index {
