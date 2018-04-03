@@ -196,12 +196,12 @@ p {
     }
     #parallax_applications {
         height: 30%;
-        background-size: 400px;
+        background-size: 800px;
         background-attachment: scroll;
     }
     #parallax_security {
         height: 30%;
-        background-size: 450px;
+        background-size: 800px;
         background-attachment: scroll;
     }
 
