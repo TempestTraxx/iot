@@ -59,6 +59,16 @@ footer p {text-align: center}
     background-size: cover;
     position: relative;
 }
+#parallax_applications {
+    background: fixed center no-repeat  url("../img/The-Internet-of-Things-IoT-Tech-Stack-Explained.jpg") ;
+
+
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
 
 #iot {
     background: fixed center no-repeat url("../img/iot5.png");
@@ -76,12 +86,22 @@ footer p {text-align: center}
     background-size: 110% 110%;
     /* min-height: 100%;*/
     position: relative;
-
+}
+#iot_appli {
+    background: fixed center no-repeat url("../img/iot_applications.jpg");
+    height: 60%;
+    width: 100%;
+    background-size: 110% 110%;
+    /* min-height: 100%;*/
+    position: relative;
 }
 .img{
     position: absolute;
     display: block;
     left: 30%;
+}
+#graph3{
+    width: 40%;
 }
 
 
