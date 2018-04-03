@@ -3,14 +3,18 @@ body, html {
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
-footer{
+
+footer {
     height: 4em;
     width: 100%;
     background-color: #01449D;
     color: white;
 
 }
-footer p {text-align: center}
+
+footer p {
+    text-align: center
+}
 
 #myBtn {
     width: 50px;
@@ -29,7 +33,6 @@ footer p {text-align: center}
     font-size: 18px; /* Increase font size */
     line-height: 18px;
     transition-duration: 0.5s;
-
     transition-timing-function: ease-out;
 
 }
@@ -38,7 +41,6 @@ footer p {text-align: center}
     background-color: #01449D; /* Add a dark-grey background on hover */
     color: white;
     transition-duration: 0.5s;
-
     transition-timing-function: ease-out;
 
 }
@@ -53,31 +55,27 @@ footer p {text-align: center}
 
 #parallax_history {
     background: fixed center no-repeat url("../img/old.jpg");
-
     height: 50%;
     width: 100%;
     background-size: cover;
     position: relative;
 }
+
 #parallax_applications {
-    background: fixed center no-repeat  url("../img/The-Internet-of-Things-IoT-Tech-Stack-Explained.jpg") ;
-
-
+    background: fixed center no-repeat url("../img/The-Internet-of-Things-IoT-Tech-Stack-Explained.jpg");
     height: 50%;
     width: 100%;
     background-size: cover;
     position: relative;
 }
+
 #parallax_security {
-    background: fixed center no-repeat  url("../img/security.jpg") ;
-
-
+    background: fixed center no-repeat url("../img/security.jpg");
     height: 50%;
     width: 100%;
     background-size: cover;
     position: relative;
 }
-
 
 #iot {
     background: fixed center no-repeat url("../img/iot5.png");
@@ -88,6 +86,7 @@ footer p {text-align: center}
     position: relative;
 
 }
+
 #iot_history {
     background: fixed center no-repeat url("../img/listical_oldmodels_socialslide.jpg");
     height: 60%;
@@ -96,6 +95,7 @@ footer p {text-align: center}
     /* min-height: 100%;*/
     position: relative;
 }
+
 #iot_appli {
     background: fixed center no-repeat url("../img/iot_applications.jpg");
     height: 60%;
@@ -104,6 +104,7 @@ footer p {text-align: center}
     /* min-height: 100%;*/
     position: relative;
 }
+
 #iot_sec {
     background: fixed center no-repeat url("../img/Intel IoT City.jpg");
     height: 60%;
@@ -112,15 +113,16 @@ footer p {text-align: center}
     /* min-height: 100%;*/
     position: relative;
 }
-.img{
+
+.img {
     position: absolute;
     display: block;
     left: 30%;
 }
-#graph3{
+
+#graph3 {
     width: 40%;
 }
-
 
 .caption {
     position: absolute;
@@ -141,16 +143,14 @@ footer p {text-align: center}
     line-height: 69px;
 }
 
-.text_dlhy ul{
+.text_dlhy ul {
     padding-left: 8em;
 }
-.text_dlhy li{
+
+.text_dlhy li {
     display: inline-block;
     width: 100%;
 }
-
-
-
 
 p {
     text-align: justify;
@@ -175,7 +175,7 @@ p {
     padding: 70px 80px;
     text-align: justify;
 }
-
+/*--------------------------------------------------------------------------*/
 @media (max-width: 820px) {
     .caption span.border {
         padding-right: 0;
@@ -185,18 +185,31 @@ p {
 
     #parallax_index {
         height: 30%;
-/*background-size: 1000px;*/
+        background-size: 800px;
+        background-attachment: scroll;
     }
 
     #parallax_history {
         height: 30%;
-        background-size: 1000px;
+        background-size: 800px;
+        background-attachment: scroll;
+    }
+    #parallax_applications {
+        height: 30%;
+        background-size: 400px;
+        background-attachment: scroll;
+    }
+    #parallax_security {
+        height: 30%;
+        background-size: 450px;
+        background-attachment: scroll;
     }
 
     section.text_kratky {
-        padding-top: 0  !important;
-        padding-bottom: 40px  !important;
+        padding-top: 0 !important;
+        padding-bottom: 40px !important;
     }
+
     #iot_history {
         background: fixed center no-repeat url("../img/listical_oldmodels_socialslide.jpg");
         height: 30%;
@@ -204,30 +217,53 @@ p {
         background-size: 100% 106%;
         background-attachment: scroll;
         min-height: 8%;
-        position: relative;}
-    #parallax_history {
-        height: 30%;
-        background-size: 800px;
-        background-attachment: scroll;
+        position: relative;
     }
-    #parallax_index {
-        height: 30%;
-        background-size: 800px;
-        background-attachment: scroll;
-    }
+
     #iot {
         background: fixed center no-repeat url("../img/iot5.png");
         height: 40%;
         width: 100%;
         background-size: cover;
-        /* min-height: 100%;*/
         position: relative;
         background-attachment: scroll;
     }
-
-
+    #iot_appli {
+        background: fixed center no-repeat url("../img/iot_applications.jpg");
+        height: 40%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        background-attachment: scroll;
+    }
+    #iot_sec {
+        background: fixed center no-repeat url("../img/Intel IoT City.jpg");
+        height: 40%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        background-attachment: scroll;
+    }
+    #graph1 {
+        background: fixed center no-repeat url("../img/Iot_graph1.png");
+        height: 50%;
+        width: 150%;
+        background-size: cover;
+        position: relative;
+        background-attachment: scroll;
+        left: -26%;
+    }
+    #graph2 {
+        background: fixed center no-repeat url("../img/IOT_graph2.png");
+        height: 50%;
+        width: 180%;
+        background-size: cover;
+        position: relative;
+        background-attachment: scroll;
+        left: -40%;
+    }
 }
-
+/*--------------------------------------------------------------------------*/
 @media (max-width: 995px) {
     .text_dlhy ul {
         padding-left: 0;
