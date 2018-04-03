@@ -194,13 +194,11 @@ p {
     }
 
     section.text_kratky {
-        padding-top: 0;
-    !important;
-        padding-bottom: 40px;
-    !important;
+        padding-top: 0  !important;
+        padding-bottom: 40px  !important;
     }
     #iot_history {
-        background: fixed center no-repeat url(../img/listical_oldmodels_socialslide.jpg);
+        background: fixed center no-repeat url("../img/listical_oldmodels_socialslide.jpg");
         height: 30%;
         width: 100%;
         background-size: 100% 106%;
