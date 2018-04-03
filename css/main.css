@@ -68,6 +68,15 @@ footer p {text-align: center}
     background-size: cover;
     position: relative;
 }
+#parallax_security {
+    background: fixed center no-repeat  url("../img/security.jpg") ;
+
+
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
 
 
 #iot {
@@ -89,6 +98,14 @@ footer p {text-align: center}
 }
 #iot_appli {
     background: fixed center no-repeat url("../img/iot_applications.jpg");
+    height: 60%;
+    width: 100%;
+    background-size: 110% 110%;
+    /* min-height: 100%;*/
+    position: relative;
+}
+#iot_sec {
+    background: fixed center no-repeat url("../img/Intel IoT City.jpg");
     height: 60%;
     width: 100%;
     background-size: 110% 110%;
