@@ -11,6 +11,7 @@
 
 ul.menu {
     border: none;
+    padding-top: 1%;
 }
 
 li:hover a {
@@ -38,14 +39,14 @@ li:hover a {
 
     }
 
-    menu {
+    nav {
         padding-left: 0 !important;
         padding-bottom: 20px;
     }
 }
 
 /*vymazanie guliciek pred tagom ul)*/
-menu ul {
+nav ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -88,7 +89,7 @@ a {
     }
 
     /*Urobi dropdown linky inline*/
-    menu ul {
+    nav ul {
         position: static;
     }
 
